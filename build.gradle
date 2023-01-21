@@ -23,6 +23,8 @@ dependencies {
     runtimeOnly 'com.h2database:h2'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    // 로그인 테스트를 위해
+    testImplementation 'org.springframework.security:spring-security-test'
 }
 
 tasks.named('test') {
